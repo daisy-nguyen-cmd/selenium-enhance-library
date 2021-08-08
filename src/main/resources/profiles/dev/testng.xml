@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SampleTestSuite">
+
+    <test name = "SampleTestCases">
+        <parameter name="search.text" value="samsung galaxy note 10 plus"></parameter>
+        <classes>
+            <class name="org.my.automationtest.SampleTestCase"/>
+        </classes>
+    </test>
+
+</suite>
